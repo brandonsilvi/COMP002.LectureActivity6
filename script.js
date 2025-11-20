@@ -1,3 +1,8 @@
+const savedColor = localStorage.getItem('favoriteColor');
+if (savedColor) {
+    console.log('Saved favorite color:', savedColor);
+}
+
 const form = document.getElementById('theForm');
 const colorInput = document.getElementById('colorInput');
 
